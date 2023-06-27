@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText name,mail,age;
     Button insert_btn,view_btn;
-    DBHepler db;
+    DBHelper db;
 
 
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         insert_btn=findViewById(R.id.insert_btn);
         view_btn=findViewById(R.id.view_btn);
 
-        db=new DBHepler(this);
+        db=new DBHelper(this);
 
 
         view_btn.setOnClickListener(new View.OnClickListener() {

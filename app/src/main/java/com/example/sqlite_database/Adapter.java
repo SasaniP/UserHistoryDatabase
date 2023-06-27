@@ -36,6 +36,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         holder.email_id.setText(String.valueOf(_mail_id.get(position)));
         holder.age_id.setText(String.valueOf(age_id.get(position)));
 
+
     }
 
     @Override
